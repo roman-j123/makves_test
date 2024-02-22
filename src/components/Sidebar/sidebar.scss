@@ -115,11 +115,19 @@
     opacity: 0;
     width: 0;
   }
-
-  50% {
-    display: none;
+  30% {
+    display: block;
     opacity: 0;
-    width: 50%;
+    width: 100%;
+  }
+  70% {
+    display: block;
+    opacity: 0;
+    width: 100%;
+  }
+
+  80% {
+    opacity: .5;
   }
 
   100% {
@@ -134,10 +142,10 @@
     opacity: 1;
     width: 100%;
   }
-  50% {
+  70% {
     display: block;
     opacity: 0;
-    width: 50%;
+    width: 30%;
   }
   100% {
     display: none;
