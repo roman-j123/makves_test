@@ -57,7 +57,7 @@ export default class Sidebar extends React.Component {
                         {
                             routes.map((route) => (
                                 <li className="navigation__item" key={route.title} onClick={() => this.goToRoute(route.path)}>
-                                    <FontAwesomeIcon icon={route.icon} />
+                                    <FontAwesomeIcon icon={route.icon} className="navigation__icon" />
                                     <span className="navigation__route">{route.title}</span>
                                 </li>
                             ))
@@ -69,7 +69,7 @@ export default class Sidebar extends React.Component {
                         {
                             bottomRoutes.map((route) => (
                                 <li className="navigation__item" key={route.title} onClick={() => this.goToRoute(route.path)}>
-                                    <FontAwesomeIcon icon={route.icon} />
+                                    <FontAwesomeIcon icon={route.icon} className="navigation__icon" />
                                     <span className="navigation__route">{route.title}</span>
                                 </li>
                             ))
