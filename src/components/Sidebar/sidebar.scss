@@ -9,7 +9,7 @@
   justify-content: space-between;
   background-color: black;
   border-radius: 24px;
-  transition: max-width .7s ease-out;
+  transition: max-width .5s ease-out;
 
   &__header {
     margin: 0 0 30px 0;
@@ -84,7 +84,7 @@
   max-width: 100px;
   width: 100%;
 
-  transition: max-width .7s ease-in;
+  transition: max-width .5s ease-in;
 }
 .opened .sidebar__logo {
   margin: 0 auto;
