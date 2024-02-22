@@ -81,18 +81,20 @@
   }
 }
 .opened {
-  max-width: 100px;
+  max-width: 80px;
   width: 100%;
 
   transition: max-width .5s ease-in;
 }
+
 .opened .sidebar__logo {
-  margin: 0 auto;
   width: 40px;
   height: 40px;
 }
 .opened .navigation__item {
-  justify-content: center;
+  width: 40px;
+  height: 40px;
+  justify-content: start;
 }
 .opened .navigation__route {
   display: none;
