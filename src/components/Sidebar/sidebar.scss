@@ -107,7 +107,7 @@
 }
 .opened .sidebar__button {
   right: -70px;
-  animation: rotateArrow .7s ease-out;
+  animation: rotateArrow 1s ease-out;
   background-color:black;
 }
 
@@ -159,9 +159,15 @@
 @keyframes rotateArrow {
   0% {
     right: -30px;
+    transform: rotate(180deg);
+  }
+  30% {
+    right: -30px;
+    transform: rotate(180deg);
   }
   70% {
     right: -30px;
+    transform: rotate(180deg);
   }
   100% {
     right: -70px;
